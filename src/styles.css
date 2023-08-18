@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+   
+}
+
+
+
+header {
+
+background-color: black;
+color: white;
+text-align: center ;
+    
+} 
+
+
+.container {
+
+    text-align: center;
+    
+
+  
+
+}
+
+.select-effect {
+    transition: background-color 0.3s ease;
+  }
+    
+    .select-effect:hover {
+        background-color: #f41aff;
+        cursor: pointer;
+      }
+
+      footer {
+
+        background-color: pink;
+        color: rgb(0, 0, 0);
+        text-align: center ;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0;            
+        } 
+
+    
